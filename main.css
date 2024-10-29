@@ -1,0 +1,65 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #0000ff;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #0000ff;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.section-title {
+    font-family: Roboto, cursive;
+}
+
+
+
+#sobre-automatize,
+#cardapio {
+    background-color: #f2f2f2;
+}
+
+.text-colored {
+    color: #0000ff;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #0000ff;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #0000ff;
+
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+@media (max-width:767px){
+    .cariusel-item img{
+        height: 280px;
+    }
+}
